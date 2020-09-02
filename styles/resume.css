@@ -1,0 +1,228 @@
+* {
+    font-family: 'Average Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #f5f5f5;
+    width: 1300px;
+    margin: auto;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+    width: 200px;
+    margin: 0;
+
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color:skyblue;
+    color: wheat;
+    transition: 0.5s;
+    transform: scale(1.3);
+}
+
+li a:active{
+    background-color: blue;
+    color: white;
+}
+
+.active {
+    background-color: #376cb8;
+    color: white;
+}
+
+.hprofile{
+    text-align: center;
+}
+img {
+    width: 360px;
+    margin: auto;
+}
+
+.row {
+    width: 1100px;
+    margin: auto;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+table{
+    background-color: white;
+    margin: auto;
+    width: max-content;
+}
+
+th{
+    font-size: 24px;
+    padding: 10px;
+}
+.highlight{
+    font-weight: bold;
+}
+
+td{
+    padding: 9px;
+}
+
+
+.pme{
+    width: 30px;
+}
+.tdetail{
+    padding: 30px;
+    margin-top: 5px;
+}
+.tddetail {
+    padding-right: 55px;
+}
+.timage{
+    text-align: center;
+    padding: 0px;
+}
+
+#search {
+    width: 12px;
+}
+
+#fname {
+    width: 350px;
+    margin-top: 2px;
+    margin-left: 50px;
+}
+
+.searchtag{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url("https://image.flaticon.com/icons/svg/751/751463.svg");
+    background-size: 20px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+#peducation{
+    width: 40px;
+    padding-left: 5px ;
+}
+.paboutme {
+    font-size: 24px;
+    margin: auto;
+}
+.education{
+    font-size: 24px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    justify-content: center;
+}
+
+.theducation{
+    text-align: start;
+    padding-left: 60px;
+}
+
+.tdeducation{
+    padding-left: 100px;
+    width: 345px;
+}
+
+.line {
+    width: 10px;
+    height: 50px;
+}
+
+
+.divabout {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.diveducation {
+    margin-top: 5px;
+}
+
+.h1myskil{
+    text-align: center;
+}
+.skill,.divcontact,.divsocial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.tableskill{
+    width: max-content;
+    padding: 30px;
+    width: 1100px;
+    border-radius: 20px;
+}
+.imgall{
+    width: 70px;
+}
+
+.thskill{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center; 
+}
+
+.skillin{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center; 
+}
+
+.linkdecnone{
+    text-decoration: none;
+    
+}
+.imgface {
+    width: 50px;
+}
+@media screen and (max-width: 800px){
+    li {
+        float: left;
+        width: max-content;
+        margin: 0;
+    
+    }
+
+}
