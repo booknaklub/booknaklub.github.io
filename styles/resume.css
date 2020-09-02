@@ -217,7 +217,7 @@ input[type=text] {
 .imgface {
     width: 50px;
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 800px){
 
     .row{
         width: 100vw;
@@ -233,21 +233,25 @@ input[type=text] {
         font-size: 100%;
     }
     .imgall{
-        width: 10vw;
+        width: 5vw;
     }
     .tdetail{
-        padding: 5vw;
+        padding: 0vw;
     }
     .tdeducation {
-        padding-left: 10px;
+        padding-left: 10vw;
         width: max-content;
     }
+    .theducation{
+        padding-left: 0vw;
+    }
     .tddetail {
-        padding-left: 0px;
+        padding-left: 0vw;
+        padding-right: 0vw;
     }
 
     td{
-        padding: 0px;
+        padding: 0vw;
     }
     li {
         float: left;
