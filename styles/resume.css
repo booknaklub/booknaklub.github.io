@@ -217,12 +217,46 @@ input[type=text] {
 .imgface {
     width: 50px;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 400px){
+
+    .row{
+        width: 100vw;
+    }
+    body{
+        width: 100vw;
+    }
+
+    .tableskill{
+        width: 100vw;
+    }
+    th {
+        font-size: 100%;
+    }
+    .imgall{
+        width: 10vw;
+    }
+    .tdetail{
+        padding: 5vw;
+    }
+    .tdeducation {
+        padding-left: 10px;
+        width: max-content;
+    }
+    .tddetail {
+        padding-left: 0px;
+    }
+
+    td{
+        padding: 0px;
+    }
     li {
         float: left;
         width: max-content;
         margin: 0;
     
+    }
+    .inputtext,.buttonsearch{
+        display: none;
     }
 
 }
